@@ -20,7 +20,7 @@
   {...$$restProps}
   {disabled}
   class={clsx(
-    "text-m flex h-fit flex-row items-center justify-center gap-2 rounded-md font-semibold transition-all duration-300  hover:shadow-lg  disabled:opacity-25",
+    "text-m flex h-fit whitespace-nowrap flex-row items-center justify-center gap-2 rounded-md font-semibold transition-all duration-300  hover:shadow-lg  disabled:opacity-25",
     {
       "bg-orange-400 text-white": varient === "primary",
       "bg-gray-200 text-gray-800": varient === "secondary",
